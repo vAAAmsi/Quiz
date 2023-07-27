@@ -1,0 +1,94 @@
+.container{
+    margin-top: 10%;
+}
+.questionscont{
+    margin-top: 5%;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.label{
+   
+    margin-left: 2%;
+    font-size: 20px;
+}
+.btncont{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.hiddencont{
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hiddencont_box{
+    width: 30%;
+    height: 30%;
+    background-color: white;
+    border-radius: 2%;
+}
+.textname{
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.warningButtons{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+
+
+
+
+
+@media screen and (max-width: 910px) {
+    .label{
+        margin-top: 20px;
+        display: flex;
+        font-size: 20px;
+        
+    }
+    .container{
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width: 600px) {
+   
+    .container{
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width: 391px) {
+    .label{
+        width: auto;
+        margin-left: 5%;
+        font-size: 22px;
+        
+    }
+    .questionscont{
+        font-size: 24px;
+    }
+    .container{
+        margin-top: 25%;
+    }
+    .btncont{
+        margin-top: 10%;
+        margin-bottom: 10px;
+    }
+    .radio{
+        width: 15px;
+    }
+    .hiddencont_box{
+        width: 80%;
+    }
+}

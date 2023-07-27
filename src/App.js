@@ -1,23 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {auth} from './firebase/firebase'
+import Login from './components/login/login';
+import {  Route, Routes } from "react-router-dom"
+import SignUp from './components/signin/signup';
+import Dashboard from './components/pages/dashboard/dashboard';
+import { TestPage } from './components/pages/testpages/testpage';
+import { Marksdashboard } from './components/pages/marksdashboard/marksdashboard';
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <Routes>
+        <Route path='/' element={<Login />}></Route>
+        <Route path="/signin" element={<SignUp />}></Route>
+        <Route path='/userdashboard' element={<Dashboard />}></Route>
+        <Route path='/userdashboard/sql' element={<TestPage />}></Route>
+        <Route path='/userdashboard/react' element={<TestPage />}></Route>
+        <Route path='/userdashboard/javascript' element={<TestPage />}></Route>
+        <Route path='/userdashboard/cpp' element={<TestPage />}></Route>
+        <Route path='/userdashboard/css' element={<TestPage />}></Route>
+        <Route path='/userdashboard/html' element={<TestPage />}></Route>
+        <Route path='/userdashboard/aptitide' element={<TestPage />}></Route>
+        <Route path='/userdashboard/marks/marksdashboard' element={<Marksdashboard />}></Route>
+      </Routes>
     </div>
   );
 }

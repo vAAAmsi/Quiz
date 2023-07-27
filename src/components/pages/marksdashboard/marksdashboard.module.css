@@ -1,0 +1,15 @@
+.table{
+    margin-top: 7%;
+}
+.tabletitles{
+    /* font-size: 50px; */
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 391px) {
+    .table{
+        margin-top: 25%;
+    }
+    
+}

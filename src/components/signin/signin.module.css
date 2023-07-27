@@ -1,0 +1,38 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #e6e9ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: white;
+    width: 30%;
+    height: 50%;
+    border-radius: 4%;
+}
+.text{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.email,.password,.btn,.a_tag{
+    margin-top: 20px;
+}
+.span_text{
+    color: blue;
+}
+.span_text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:391px) {
+    .form{
+        width: 90%;
+    }
+    
+}
