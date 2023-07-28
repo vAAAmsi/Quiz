@@ -317,27 +317,27 @@
                                 },
                                 {
                                   "question": "1. What is the chemical symbol for water?",
-                                  "options": [" H2O", " CO2", " O2", " NaCl"],
+                                  "options": ["H2O", "CO2", "O2", "NaCl"],
                                   "correctAnswer": "H2O"
                                 },
                                 {
                                   "question": "2. Which gas is essential for respiration?",
-                                  "options": [" Nitrogen", " Oxygen", " Carbon dioxide", " Hydrogen"],
+                                  "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Hydrogen"],
                                   "correctAnswer": "Oxygen"
                                 },
                                 {
                                   "question": "3. Which subatomic particles are found in the nucleus of an atom?",
-                                  "options": [" Protons and electrons", " Protons and neutrons", " Electrons and neutrons", " Electrons and positrons"],
+                                  "options": ["Protons and electrons", "Protons and neutrons", "Electrons and neutrons", "Electrons and positrons"],
                                   "correctAnswer": "Protons and neutrons"
                                 },
                                 {
                                   "question": "4. What is the chemical symbol for iron?",
-                                  "options": [" Ir", " Fe", " I", " In"],
+                                  "options": ["Ir", "Fe", "I", "In"],
                                   "correctAnswer": "Fe"
                                 },
                                 {
                                   "question": "5. Which type of chemical bond involves the sharing of electrons between atoms?",
-                                  "options": [" Ionic bond", " Covalent bond", " Metallic bond", " Hydrogen bond"],
+                                  "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
                                   "correctAnswer": "Covalent bond"
                                 },
                                 {

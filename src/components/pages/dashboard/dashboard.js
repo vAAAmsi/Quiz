@@ -10,7 +10,6 @@ import styles from './dashboard.module.css'
 const Dashboard = () => {
     const [username,setUsername] = useState('')
     const Testnames = ['Sql','React','Javascript','Cpp','CSS','HTML','Aptitide','English','Chemistry','Physics']
-    const [filtername,setFiltername] = useState('')
     const [originaluid,setOriginaluid] = useState(null)
     const navigate = useNavigate()
     sessionStorage.setItem('mailid',username)
@@ -29,21 +28,16 @@ const Dashboard = () => {
    return(
     <>
       <NavBar title ='Take Quiz' username={username} bg='#007BFF'/>
-      <div className={styles.Search_container}>
+      {/* <div className={styles.Search_container}>
           <TextField label='search' 
            onChange={(e) => setFiltername(e.target.value)} 
            className={styles.searchfiled}></TextField>
-      </div>
+      </div> */}
       <div className={styles.main_box_container}>
 
         
         {
           Testnames
-          .filter((name) =>{
-            if(name){
-               return name.toLowerCase().includes(filtername.toLowerCase())
-            }
-          } )
           .map((name,index) => {
             let routename = '/userdashboard'
             let tocapital = name.toLowerCase();

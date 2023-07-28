@@ -12,7 +12,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: center; */
     gap: 5%; 
     margin-top: 5%;
     height: auto;
@@ -35,22 +34,22 @@
 
 
 @media screen and (max-width:1240px) {
-    .Search_container{
+    .main_box_container{
         margin-top: 10%;
     }
 }
 @media screen and (max-width:850px) {
-    .Search_container{
+    .main_box_container{
         margin-top: 15%;
     }
 }
 @media screen and (max-width:580px) {
-    .Search_container{
+    .main_box_container{
         margin-top: 20%;
     }
 }
 @media screen and (max-width:391px) {
-    .Search_container{
+    .main_box_container{
         margin-top: 25%;
     }
 }
