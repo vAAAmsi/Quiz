@@ -41,7 +41,7 @@ position: fixed;
 }
 .hiddencont_box{
     width: 30%;
-    height: 30%;
+    height: 35%;
     background-color: white;
     border-radius: 2%;
 }
@@ -64,7 +64,19 @@ position: fixed;
    }
     
 }
+@media screen and (max-width: 1100px) {
+    .hiddencont_box{
+        width: 40%;
+    }
+     
+ }
 
+ @media screen and (max-width: 720px) {
+    .hiddencont_box{
+        width: 70%;
+    }
+     
+ }
 
 @media screen and (max-width: 850px) {
     
