@@ -56,12 +56,12 @@
     display: block;
 }
 
-@media screen and (max-width:391px) {
 
+@media screen and (max-width: 570px) {
+    
     .hidden_cont{
         display: none;
     }
-    
     .title{
         font-size: 30px;
         font-weight: 800;
@@ -74,5 +74,5 @@
         display: block;
         
     }
+}
 
-  }

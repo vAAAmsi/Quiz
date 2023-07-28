@@ -6,10 +6,27 @@
     font-weight: 600;
 }
 
+@media screen and (max-width: 1070px) {
+    .table{
+        margin-top: 10%;
+    }  
+}
+
+@media screen and (max-width: 700px) {
+    .table{
+        margin-top: 15%;
+    } 
+}
+@media screen and (max-width: 480px) {
+    .table{
+        margin-top: 18%;
+    } 
+}
 
 @media screen and (max-width: 391px) {
     .table{
         margin-top: 25%;
     }
+    
     
 }

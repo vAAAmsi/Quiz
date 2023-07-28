@@ -11,8 +11,8 @@ import Swal from 'sweetalert2';
 
 export const TestPage = () => {
     const location = useLocation();
-    const title = `${location.state.name} Test`
-    const index_from_Rounting = location.state.index;
+    const title = `${location.state?.name} Test`
+    const index_from_Rounting = location.state?.index;
     const username = sessionStorage.getItem('mailid');
     const startIndex = index_from_Rounting * 5;
     const endIndex = startIndex + 5
@@ -24,7 +24,13 @@ export const TestPage = () => {
     const userid = sessionStorage.getItem('originaluid')
     const [isOpen,setIsOpen] = useState(false)
     const navigate = useNavigate()
-    
+    const now = new Date();
+    let hours = now.getHours();
+    let ampm = hours >= 12 ? "PM" : "AM";
+    hours = hours % 12;
+    hours = hours || 12; 
+    const minutes = String(now.getMinutes()).padStart(2, "0");
+     
     const seletedHandler = (option,question,index) => {
 
         const eachmarks = option === question.correctAnswer ? 2 :0;
@@ -38,6 +44,7 @@ export const TestPage = () => {
                 textname : title,
                 markssecured : TotalResult,
                 date : new Date().getDate()+`/${new Date().getMonth()<9?'0':''}${new Date().getMonth()+1}/`+new Date().getFullYear(),
+                time : `${hours}:${minutes} ${ampm}`,
                 uid : userid
                 
             })
@@ -58,6 +65,7 @@ export const TestPage = () => {
   return (
     <>
         <NavBar title={title} username={username} />
+        <center className={styles.instructions} >Each Question carries 2 marks and no negitive marks</center>
         <div  className={styles.container}>
             
         {

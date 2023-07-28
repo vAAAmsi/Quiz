@@ -9,7 +9,7 @@ import styles from './dashboard.module.css'
 
 const Dashboard = () => {
     const [username,setUsername] = useState('')
-    const Testnames = ['Sql','React','Javascript','Cpp','CSS','HTML','Aptitide']
+    const Testnames = ['Sql','React','Javascript','Cpp','CSS','HTML','Aptitide','English','Chemistry','Physics']
     const [filtername,setFiltername] = useState('')
     const [originaluid,setOriginaluid] = useState(null)
     const navigate = useNavigate()

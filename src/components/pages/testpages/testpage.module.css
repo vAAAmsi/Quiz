@@ -1,13 +1,23 @@
 .container{
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    /* background-color: red; */
+    /* margin-bottom: 10%; */
+}
+.instructions{
+    /* style={{marginTop:'7%',fontSize:'20px',color:'red'}} */
+    margin-top: 7%;
+    font-size: 20px;
+    color: red;
+     /* background-color: red;  */
 }
 .questionscont{
-    margin-top: 5%;
+    margin-top: 3%;
+   
     font-size: 20px;
     margin-left: 20px;
 }
 .label{
-   
+    display: flex;
     margin-left: 2%;
     font-size: 20px;
 }
@@ -48,29 +58,39 @@ position: fixed;
 }
 
 
+@media screen and (max-width: 1200px) {
+   .instructions{
+    margin-top: 10%;
+   }
+    
+}
 
 
-
-@media screen and (max-width: 910px) {
-    .label{
-        margin-top: 20px;
-        display: flex;
-        font-size: 20px;
-        
-    }
-    .container{
+@media screen and (max-width: 850px) {
+    
+    .instructions{
         margin-top: 15%;
     }
 }
 @media screen and (max-width: 600px) {
-   
+    .instructions{
+        margin-top: 22%;
+    }
     .container{
-        margin-top: 20%;
+        margin-top: 7%;
+    }
+    .label{
+        
+        margin-top:10px ;
+        margin-left: 20px;
+    }
+    .questionscont{
+        font-size: 24px;
     }
 }
 @media screen and (max-width: 391px) {
     .label{
-        width: auto;
+        /* width: auto; */
         margin-left: 5%;
         font-size: 22px;
         
@@ -78,7 +98,7 @@ position: fixed;
     .questionscont{
         font-size: 24px;
     }
-    .container{
+    .instructions{
         margin-top: 25%;
     }
     .btncont{

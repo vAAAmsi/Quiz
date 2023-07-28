@@ -264,7 +264,112 @@
                                   "question": "If a triangle has a base of 10 cm and a height of 6 cm, what is its area?",
                                   "options": ["20 cm²", "30 cm²", "36 cm²", "60 cm²"],
                                   "correctAnswer": "30 cm²"
+                                },
+                                {
+                                  "question": "Which of the following is a correct sentence?",
+                                  "options": [
+                                    "She go to school yesterday.",
+                                    "He go to school yesterday.",
+                                    "They goes to school yesterday.",
+                                    "He went to school yesterday."
+                                  ],
+                                  "correctAnswer": "He went to school yesterday."
+                                },
+                                {
+                                  "question": "What is the correct plural form of 'child'?",
+                                  "options": [
+                                    "childs",
+                                    "childrens",
+                                    "childes",
+                                    "children"
+                                  ],
+                                  "correctAnswer": "children"
+                                },
+                                {
+                                  "question": "Identify the correct verb form: She _____ a book yesterday.",
+                                  "options": [
+                                    "buyed",
+                                    "buy",
+                                    "boughted",
+                                    "bought"
+                                  ],
+                                  "correctAnswer": "bought"
+                                },
+                                {
+                                  "question": "Choose the correct pronoun for the blank: _____ is my sister.",
+                                  "options": [
+                                    "She",
+                                    "He",
+                                    "They",
+                                    "Her"
+                                  ],
+                                  "correctAnswer": "She"
+                                },
+                                {
+                                  "question": "What is the correct form of the verb 'to be' in this sentence: They _____ hungry.",
+                                  "options": [
+                                    "is",
+                                    "am",
+                                    "are",
+                                    "be"
+                                  ],
+                                  "correctAnswer": "are"
+                                },
+                                {
+                                  "question": "1. What is the chemical symbol for water?",
+                                  "options": ["A) H2O", "B) CO2", "C) O2", "D) NaCl"],
+                                  "correctAnswer": "A"
+                                },
+                                {
+                                  "question": "2. Which gas is essential for respiration?",
+                                  "options": ["A) Nitrogen", "B) Oxygen", "C) Carbon dioxide", "D) Hydrogen"],
+                                  "correctAnswer": "B"
+                                },
+                                {
+                                  "question": "3. Which subatomic particles are found in the nucleus of an atom?",
+                                  "options": ["A) Protons and electrons", "B) Protons and neutrons", "C) Electrons and neutrons", "D) Electrons and positrons"],
+                                  "correctAnswer": "B"
+                                },
+                                {
+                                  "question": "4. What is the chemical symbol for iron?",
+                                  "options": ["A) Ir", "B) Fe", "C) I", "D) In"],
+                                  "correctAnswer": "B"
+                                },
+                                {
+                                  "question": "5. Which type of chemical bond involves the sharing of electrons between atoms?",
+                                  "options": ["A) Ionic bond", "B) Covalent bond", "C) Metallic bond", "D) Hydrogen bond"],
+                                  "correctAnswer": "B"
+                                },
+                                {
+                                  "question": "What is the force that keeps the Earth in orbit around the Sun?",
+                                  "options": ["Gravity", "Friction", "Magnetism", "Electricity"],
+                                  "correctAnswer": "Gravity"
+                                },
+                                {
+                                  "question": "What is the unit of force in the International System of Units?",
+                                  "options": ["Newton", "Kilogram", "Meter", "Second"],
+                                  "correctAnswer": "Newton"
+                                },
+                                {
+                                  "question": "What is the speed of light in a vacuum?",
+                                  "options": ["300,000 kilometers per second", "186,000 miles per hour", "299,792,458 meters per second", "9.8 meters per second squared"],
+                                  "correctAnswer": "299,792,458 meters per second"
+                                },
+                                {
+                                  "question": "What is the law of conservation of energy?",
+                                  "options": ["Energy can be created or destroyed", "Energy can be converted from one form to another", "Energy can be lost", "Energy can be gained"],
+                                  "correctAnswer": "Energy can be converted from one form to another"
+                                },
+                                {
+                                  "question": "What is the formula for the force of gravity?",
+                                  "options": ["F = G * m1 * m2 / r^2", "F = m * a", "F = m1 * m2 / r", "F = m * g"],
+                                  "correctAnswer": "F = G * m1 * m2 / r^2"
                                 }
+
+
+                                
+
+                                
                               ]
                               
 

@@ -30,6 +30,24 @@
     
 }
 
+@media screen and (max-width:1000px) {
+    .form{
+        width: 45%;
+    }
+    
+}
+@media screen and (max-width:670px) {
+    .form{
+        width: 60%;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .form{
+        width: 75%;
+    }
+    
+}
 @media screen and (max-width:391px) {
     .form{
         width: 90%;

@@ -23,6 +23,9 @@ function App() {
         <Route path='/userdashboard/css' element={<TestPage />}></Route>
         <Route path='/userdashboard/html' element={<TestPage />}></Route>
         <Route path='/userdashboard/aptitide' element={<TestPage />}></Route>
+        <Route path='/userdashboard/english' element={<TestPage />}></Route>
+        <Route path='/userdashboard/chemistry' element={<TestPage />}></Route>
+        <Route path='/userdashboard/physics' element={<TestPage />}></Route>
         <Route path='/userdashboard/marks/marksdashboard' element={<Marksdashboard />}></Route>
       </Routes>
     </div>
