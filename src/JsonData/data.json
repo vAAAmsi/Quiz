@@ -317,28 +317,28 @@
                                 },
                                 {
                                   "question": "1. What is the chemical symbol for water?",
-                                  "options": ["A) H2O", "B) CO2", "C) O2", "D) NaCl"],
-                                  "correctAnswer": "A"
+                                  "options": [" H2O", " CO2", " O2", " NaCl"],
+                                  "correctAnswer": "H2O"
                                 },
                                 {
                                   "question": "2. Which gas is essential for respiration?",
-                                  "options": ["A) Nitrogen", "B) Oxygen", "C) Carbon dioxide", "D) Hydrogen"],
-                                  "correctAnswer": "B"
+                                  "options": [" Nitrogen", " Oxygen", " Carbon dioxide", " Hydrogen"],
+                                  "correctAnswer": "Oxygen"
                                 },
                                 {
                                   "question": "3. Which subatomic particles are found in the nucleus of an atom?",
-                                  "options": ["A) Protons and electrons", "B) Protons and neutrons", "C) Electrons and neutrons", "D) Electrons and positrons"],
-                                  "correctAnswer": "B"
+                                  "options": [" Protons and electrons", " Protons and neutrons", " Electrons and neutrons", " Electrons and positrons"],
+                                  "correctAnswer": "Protons and neutrons"
                                 },
                                 {
                                   "question": "4. What is the chemical symbol for iron?",
-                                  "options": ["A) Ir", "B) Fe", "C) I", "D) In"],
-                                  "correctAnswer": "B"
+                                  "options": [" Ir", " Fe", " I", " In"],
+                                  "correctAnswer": "Fe"
                                 },
                                 {
                                   "question": "5. Which type of chemical bond involves the sharing of electrons between atoms?",
-                                  "options": ["A) Ionic bond", "B) Covalent bond", "C) Metallic bond", "D) Hydrogen bond"],
-                                  "correctAnswer": "B"
+                                  "options": [" Ionic bond", " Covalent bond", " Metallic bond", " Hydrogen bond"],
+                                  "correctAnswer": "Covalent bond"
                                 },
                                 {
                                   "question": "What is the force that keeps the Earth in orbit around the Sun?",
