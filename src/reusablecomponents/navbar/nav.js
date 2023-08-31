@@ -3,8 +3,7 @@ import styles from './nav.module.css';
 import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import DropDown from '../../components/dropdown/dropdown';
-import { useFetcher } from 'react-router-dom';
-import { auth } from '../../firebase/firebase';
+
 
 export default function NavBar({username,title}) {
   const [isOpen,setIsOpen] = useState(false)

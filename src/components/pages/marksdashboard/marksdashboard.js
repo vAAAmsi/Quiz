@@ -45,7 +45,7 @@ export const Marksdashboard = () => {
             <TableCell className={styles.tabletitles}  align="center">MARKS SECURED</TableCell>
             <TableCell className={styles.tabletitles}  align="left">DATE</TableCell>
             <TableCell className={styles.tabletitles}  align="left">TIME</TableCell>
-            {/* <TableCell className={styles.tabletitles}  align="left">Status</TableCell> */}
+            <TableCell className={styles.tabletitles}  align="left">Status</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -60,6 +60,7 @@ export const Marksdashboard = () => {
               <TableCell align="center">{row.markssecured}</TableCell>
               <TableCell align="left">{row.date}</TableCell>
               <TableCell align="left" className={styles.time}>{row.time}</TableCell>
+              <TableCell align="left" className={styles.time}>{row.markssecured>=6 ? "Passed" : "Failed"}</TableCell>
             </TableRow>
           ))}
         </TableBody>

@@ -5,7 +5,7 @@ import Data from '../../../JsonData/data.json'
 import { Button } from '@mui/material';
 import styles from './testpage.module.css'
 import db, { auth } from '../../../firebase/firebase';
-import { addDoc, collection, doc } from 'firebase/firestore';
+import { addDoc, collection } from 'firebase/firestore';
 import Swal from 'sweetalert2';
 
 

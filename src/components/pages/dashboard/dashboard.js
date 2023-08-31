@@ -11,6 +11,7 @@ const Dashboard = () => {
     const [username,setUsername] = useState('')
     const Testnames = ['Sql','React','Javascript','Cpp','CSS','HTML','Aptitide','English','Chemistry','Physics']
     const [originaluid,setOriginaluid] = useState(null)
+    const [Filtername,setFiltername] = useState('')
     const navigate = useNavigate()
     sessionStorage.setItem('mailid',username)
     sessionStorage.setItem('originaluid',originaluid)
@@ -45,9 +46,9 @@ const Dashboard = () => {
             
             return(
               <div key={index} 
-              className={styles.inner_container}>
+              className={styles.inner_container}  >
                 <div className={styles.testname} >{name}</div>
-                <Button style={{marginLeft:'10px'}} onClick={() => navigate(`${final_route}`,{state:{name,index}})} variant='contained'>attempt</Button>
+                <Button style={{marginLeft:'10px'}} onClick={() => {navigate(`${final_route}`,{state:{name,index}})}} variant='contained'>attempt</Button>
               </div>
             )
           })
